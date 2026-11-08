@@ -310,14 +310,3 @@ difference between this release and the files used for the runs.
 - **Models** are used under their own licenses: Apache 2.0 (Qwen2.5 except 3B and 72B, MPT-7B), Qwen Research License
   (Qwen2.5-3B), Qwen License (Qwen2.5-72B), Llama 3.1 Community License, Gemma Terms of Use, BigScience RAIL
   (BLOOM-7B1), MIT (DeepSeek-R1-Distill-Qwen-7B), and the OpenAI terms of use (GPT-4o).
-
-## Citation
-
-```bibtex
-@inproceedings{linehead2027,
-  title     = {Which Graph Serialization Is Easiest Depends on What Attention Can Do},
-  author    = {Anonymous},
-  booktitle = {Under review},
-  year      = {2027}
-}
-```
