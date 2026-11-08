@@ -1,0 +1,58 @@
+{
+ "id": {
+  "1": 0.4308,
+  "2": 0.313,
+  "3": 0.1544,
+  "4-6": 0.1018,
+  "7-12": 0.0,
+  "13-32": 0.0
+ },
+ "id_vfirst": 0.5336,
+ "id_own": 0.0674,
+ "ood": {
+  "1": 0.3626,
+  "2": 0.269,
+  "3": 0.1502,
+  "4-6": 0.1246,
+  "7-12": 0.0442,
+  "13-32": 0.0494
+ },
+ "ood_vfirst": 0.5504,
+ "ood_own": 0.122,
+ "kc_vfirst": 0.5248333333333334,
+ "kc_vsecond": 0.5235833333333333,
+ "kc_by": {
+  "1": {
+   "vfirst": 0.5585,
+   "vsecond": 0.577
+  },
+  "2": {
+   "vfirst": 0.552,
+   "vsecond": 0.523
+  },
+  "3": {
+   "vfirst": 0.517,
+   "vsecond": 0.535
+  },
+  "4-6": {
+   "vfirst": 0.507,
+   "vsecond": 0.519
+  },
+  "7-12": {
+   "vfirst": 0.4945,
+   "vsecond": 0.5075
+  },
+  "13-32": {
+   "vfirst": 0.52,
+   "vsecond": 0.48
+  }
+ },
+ "sha256": {
+  "gen_e3.py": "09f896a0d184139567767abcb6f39c900ac5fdbbd5a8fc9766ea1ee5229e8685",
+  "serialize.py": "66f9558171c4f69f288349baa8dd25f87a9489cc2cfb87fb7d3e90ec7984449c",
+  "kdist.py": "c29ea418b61aecf93e7b681973a7f8bb9719d70bce50288745d379052aebb757",
+  "dia_EL_id.jsonl": "e69d82fcad4740b0f9f52b8e096025dde3f222c58dbfa963e921ebe13d22a875",
+  "dia_EL_ood.jsonl": "6c088707e31699025492d2f6d30723e0629bce7eca8fe3e32f7db42e106114b8",
+  "dia_EL_kset.jsonl": "9e4668db662405672d5385fa74a67d3da0f694bb04864c1fbbe4aefdb847d1ae"
+ }
+}

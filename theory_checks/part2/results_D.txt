@@ -1,0 +1,20 @@
+Part 1: eps = 0.25, delta = 0.05
+  m =   64: paper 16/eps^2 bound d >= 3074;  sharpened Chernoff d >= 538;  asymmetric tolerances d >= 504 (eps1=0.231, eps2=eps3=0.269);  exact-tail union bound d >= 380
+      Monte Carlo Pr[E_eps] at d = 32: 0.000 (s.e. 0.000, 200 trials)
+      Monte Carlo Pr[E_eps] at d = 380: 0.950 (s.e. 0.002, 20000 trials)
+      Monte Carlo Pr[E_eps] at d = 538: 0.995 (s.e. 0.000, 20000 trials)
+  m =  150: paper 16/eps^2 bound d >= 3510;  sharpened Chernoff d >= 600;  asymmetric tolerances d >= 558 (eps1=0.231, eps2=eps3=0.269);  exact-tail union bound d >= 437
+      Monte Carlo Pr[E_eps] at d = 32: 0.000 (s.e. 0.000, 200 trials)
+      Monte Carlo Pr[E_eps] at d = 437: 0.950 (s.e. 0.002, 20000 trials)
+      Monte Carlo Pr[E_eps] at d = 600: 0.996 (s.e. 0.000, 20000 trials)
+  m =  600: paper 16/eps^2 bound d >= 4220;  sharpened Chernoff d >= 702;  asymmetric tolerances d >= 647 (eps1=0.231, eps2=eps3=0.269);  exact-tail union bound d >= 530
+      Monte Carlo Pr[E_eps] at d = 32: 0.000 (s.e. 0.000, 200 trials)
+      Monte Carlo Pr[E_eps] at d = 530: 0.951 (s.e. 0.002, 20000 trials)
+      Monte Carlo Pr[E_eps] at d = 702: 0.996 (s.e. 0.000, 20000 trials)
+  check on 10^4 grid points of (0,1): c >= a everywhere: True; b >= a everywhere: True; a >= eps^2/12 everywhere: True
+  constants: a(1/4) = 0.01343, b(1/4) = 0.01884, c(1/4) = 0.03035, eps^2/16 = 0.00391
+  d = 32: Pr[|<e_a,e_b>| >= 1/4] = 0.154; expected violating pairs among 64 names: 311
+Part 2: matching head M_{2,3} after three 1-local copy layers, n = 400, 150 names, 20 sequences
+  d =   64: wrong positions without LN 38, with pre-LN and dilution 34, with pre-LN and no dilution (Z = 1, weights calibrated to the median LN scale) 420  (of 7980)
+  d =  128: wrong positions without LN 0, with pre-LN and dilution 0, with pre-LN and no dilution (Z = 1, weights calibrated to the median LN scale) 397  (of 7980)
+  d =  256: wrong positions without LN 0, with pre-LN and dilution 0, with pre-LN and no dilution (Z = 1, weights calibrated to the median LN scale) 459  (of 7980)

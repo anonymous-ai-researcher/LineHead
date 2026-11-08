@@ -1,0 +1,143 @@
+{
+ "split": "kset",
+ "seed": 3,
+ "pairs_per_stratum": 300,
+ "families": {
+  "AL": {
+   "1": {
+    "rho": 4,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "2": {
+    "rho": 4,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "3": {
+    "rho": 5,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "4": {
+    "rho": 6,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "5": {
+    "rho": 7,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "6": {
+    "rho": 8,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "7": {
+    "rho": 9,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "8": {
+    "rho": 10,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "9": {
+    "rho": 11,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "10": {
+    "rho": 12,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   }
+  },
+  "NC": {
+   "1": {
+    "rho": 2,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "2": {
+    "rho": 3,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "3": {
+    "rho": 4,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "4": {
+    "rho": 5,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "5": {
+    "rho": 6,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "6": {
+    "rho": 7,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "7": {
+    "rho": 8,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "8": {
+    "rho": 9,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "9": {
+    "rho": 10,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "10": {
+    "rho": 11,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   },
+   "11": {
+    "rho": 12,
+    "correct": 1800,
+    "records": 3600,
+    "share": 0.5
+   }
+  }
+ },
+ "sha256": {
+  "gen_e3.py": "09f896a0d184139567767abcb6f39c900ac5fdbbd5a8fc9766ea1ee5229e8685",
+  "tl_eval.py": "9dc4885aa649a3690d81b642ea21823ddfd60f28ad84cd32a3cd0c9e83a4b99a",
+  "shortcut_check.py": "d02aaee26341ef62f5d0fe5a7bff352a69f8c42cf7658b0a9184596ca1c956ad"
+ },
+ "max_share": 0.5
+}

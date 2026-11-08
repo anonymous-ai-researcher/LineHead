@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+venv/
+e3/data/
+e3/ckpt/
+analysis/figures/*.pdf
+analysis/figures/*.values.json
+results/tables/

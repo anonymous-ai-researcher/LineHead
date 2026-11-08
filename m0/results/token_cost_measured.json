@@ -1,0 +1,259 @@
+{
+ "word_tokens": {
+  "all|AL": {
+   "mean": 311.6,
+   "max": 852,
+   "n_graphs": 6000
+  },
+  "all|ECL": {
+   "mean": 341.8,
+   "max": 990,
+   "n_graphs": 6000
+  },
+  "all|EL": {
+   "mean": 235.7,
+   "max": 642,
+   "n_graphs": 6000
+  },
+  "all|EL2": {
+   "mean": 394.9,
+   "max": 1164,
+   "n_graphs": 6000
+  },
+  "all|ELfar": {
+   "mean": 344.8,
+   "max": 993,
+   "n_graphs": 6000
+  },
+  "all|Friendship": {
+   "mean": 454.9,
+   "max": 1253,
+   "n_graphs": 6000
+  },
+  "all|GraphML": {
+   "mean": 1402.5,
+   "max": 3458,
+   "n_graphs": 6000
+  },
+  "all|Incident": {
+   "mean": 434.1,
+   "max": 1047,
+   "n_graphs": 6000
+  },
+  "all|NC": {
+   "mean": 679.0,
+   "max": 1974,
+   "n_graphs": 6000
+  },
+  "all|NCH": {
+   "mean": 629.9,
+   "max": 1896,
+   "n_graphs": 6000
+  },
+  "count|AL": {
+   "mean": 411.7,
+   "max": 852,
+   "n_graphs": 1200
+  },
+  "count|ECL": {
+   "mean": 458.9,
+   "max": 990,
+   "n_graphs": 1200
+  },
+  "count|EL": {
+   "mean": 311.2,
+   "max": 642,
+   "n_graphs": 1200
+  },
+  "count|EL2": {
+   "mean": 532.8,
+   "max": 1164,
+   "n_graphs": 1200
+  },
+  "count|ELfar": {
+   "mean": 461.9,
+   "max": 993,
+   "n_graphs": 1200
+  },
+  "count|Friendship": {
+   "mean": 601.5,
+   "max": 1253,
+   "n_graphs": 1200
+  },
+  "count|GraphML": {
+   "mean": 1802.4,
+   "max": 3458,
+   "n_graphs": 1200
+  },
+  "count|Incident": {
+   "mean": 555.9,
+   "max": 1047,
+   "n_graphs": 1200
+  },
+  "count|NC": {
+   "mean": 912.6,
+   "max": 1974,
+   "n_graphs": 1200
+  },
+  "count|NCH": {
+   "mean": 854.9,
+   "max": 1896,
+   "n_graphs": 1200
+  },
+  "depth1|AL": {
+   "mean": 336.2,
+   "max": 808,
+   "n_graphs": 1200
+  },
+  "depth1|ECL": {
+   "mean": 363.2,
+   "max": 933,
+   "n_graphs": 1200
+  },
+  "depth1|EL": {
+   "mean": 253.5,
+   "max": 609,
+   "n_graphs": 1200
+  },
+  "depth1|EL2": {
+   "mean": 418.0,
+   "max": 1095,
+   "n_graphs": 1200
+  },
+  "depth1|ELfar": {
+   "mean": 366.2,
+   "max": 936,
+   "n_graphs": 1200
+  },
+  "depth1|Friendship": {
+   "mean": 486.3,
+   "max": 1186,
+   "n_graphs": 1200
+  },
+  "depth1|GraphML": {
+   "mean": 1531.2,
+   "max": 3315,
+   "n_graphs": 1200
+  },
+  "depth1|Incident": {
+   "mean": 479.5,
+   "max": 1008,
+   "n_graphs": 1200
+  },
+  "depth1|NC": {
+   "mean": 722.5,
+   "max": 1860,
+   "n_graphs": 1200
+  },
+  "depth1|NCH": {
+   "mean": 665.2,
+   "max": 1780,
+   "n_graphs": 1200
+  },
+  "depth2|AL": {
+   "mean": 323.3,
+   "max": 772,
+   "n_graphs": 1200
+  },
+  "depth2|ECL": {
+   "mean": 344.8,
+   "max": 890,
+   "n_graphs": 1200
+  },
+  "depth2|EL": {
+   "mean": 243.6,
+   "max": 582,
+   "n_graphs": 1200
+  },
+  "depth2|EL2": {
+   "mean": 395.4,
+   "max": 1044,
+   "n_graphs": 1200
+  },
+  "depth2|ELfar": {
+   "mean": 347.8,
+   "max": 893,
+   "n_graphs": 1200
+  },
+  "depth2|Friendship": {
+   "mean": 465.6,
+   "max": 1133,
+   "n_graphs": 1200
+  },
+  "depth2|GraphML": {
+   "mean": 1495.2,
+   "max": 3178,
+   "n_graphs": 1200
+  },
+  "depth2|Incident": {
+   "mean": 471.3,
+   "max": 967,
+   "n_graphs": 1200
+  },
+  "depth2|NC": {
+   "mean": 686.2,
+   "max": 1774,
+   "n_graphs": 1200
+  },
+  "depth2|NCH": {
+   "mean": 627.0,
+   "max": 1696,
+   "n_graphs": 1200
+  },
+  "global|AL": {
+   "mean": 243.4,
+   "max": 744,
+   "n_graphs": 2400
+  },
+  "global|ECL": {
+   "mean": 271.1,
+   "max": 853,
+   "n_graphs": 2400
+  },
+  "global|EL": {
+   "mean": 185.1,
+   "max": 561,
+   "n_graphs": 2400
+  },
+  "global|EL2": {
+   "mean": 314.1,
+   "max": 999,
+   "n_graphs": 2400
+  },
+  "global|ELfar": {
+   "mean": 274.1,
+   "max": 856,
+   "n_graphs": 2400
+  },
+  "global|Friendship": {
+   "mean": 360.5,
+   "max": 1090,
+   "n_graphs": 2400
+  },
+  "global|GraphML": {
+   "mean": 1091.7,
+   "max": 3091,
+   "n_graphs": 2400
+  },
+  "global|Incident": {
+   "mean": 332.0,
+   "max": 944,
+   "n_graphs": 2400
+  },
+  "global|NC": {
+   "mean": 536.7,
+   "max": 1700,
+   "n_graphs": 2400
+  },
+  "global|NCH": {
+   "mean": 501.3,
+   "max": 1620,
+   "n_graphs": 2400
+  }
+ },
+ "sha256": {
+  "serialize.py": "66f9558171c4f69f288349baa8dd25f87a9489cc2cfb87fb7d3e90ec7984449c",
+  "token_cost.py": "57e7229a7bc5a6f9cf678c61bef9de96744ea28647e14e9b4a98f604f43afb27",
+  "m0_instances.jsonl": "336e3ea596f1a46c6096038830f62326ca5507a6c62faddfa82158c1d7d0526d"
+ }
+}

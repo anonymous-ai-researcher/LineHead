@@ -1,0 +1,4 @@
+rho(Theta) = 5
+  fresh pair, k=2: Theta(q+)=True, Theta(q-)=False
+  shared pair, k=2: Theta(q+)=True, Theta(q-)=True
+  random-order OOD AL prompts: Theta true on 185/300 positives and 145/300 negatives (unsound)

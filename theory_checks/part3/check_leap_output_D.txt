@@ -1,0 +1,6 @@
+[D] mixture D_J (J=12): empirical |E[f y]| against the bound (b-1)/(2J)
+  200 random depth-1 formulas: max(|E[f y]| - bound) = -0.1250 (theorem: <= 0)
+  Theta_6 (budget 12): E[f y] = 0.0833, bound (b-1)/(2J) = 0.4583
+  Theta_10 (budget 16): E[f y] = 0.2083, bound (b-1)/(2J) = 0.5000
+  Theta_14 (budget 20): E[f y] = 0.3333, bound (b-1)/(2J) = 0.5000
+  depth-2 formula: E[f y] = 0.500 (maximum 0.5)

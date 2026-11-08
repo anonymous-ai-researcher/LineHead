@@ -1,0 +1,100 @@
+LineHead: code and instance files for "Which Graph Serialization Is Easiest Depends on What Attention Can Do"
+
+This repository is distributed under two licenses:
+
+  1. the source code, scripts and documentation, under the MIT License (Part I);
+  2. the instance files, under the Creative Commons Attribution 4.0 International License (Part II).
+
+Part III lists third-party material that this repository uses but does not distribute.
+
+================================================================================
+Part I. Source code: MIT License
+================================================================================
+
+Scope: every file of this repository except the instance files listed in Part II,
+including all Python and shell scripts, the analysis and figure code, the
+configuration, protocol and validation documents, and the README files.
+
+MIT License
+
+Copyright (c) 2026 Anonymous Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+Part II. Instance files: Creative Commons Attribution 4.0 International
+================================================================================
+
+Scope:
+  - m0/data/            the frozen instance files (graphs, questions, labels and
+                        the prompts built from them);
+  - m0/results/ and e3/results/, as distributed in this repository: the files
+                        computed from the instance files without any model
+                        (k_min shares, shortcut ceilings, k_min distributions of
+                        the test sets, token counts).
+
+Copyright (c) 2026 Anonymous Authors
+
+These files are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0). You are free to share (copy and
+redistribute the material in any medium or format) and adapt (remix, transform
+and build upon the material) for any purpose, even commercially, under the
+following terms:
+
+  - Attribution: you must give appropriate credit, provide a link to the
+    license, and indicate if changes were made. You may do so in any reasonable
+    manner, but not in any way that suggests the licensor endorses you or your
+    use.
+  - No additional restrictions: you may not apply legal terms or technological
+    measures that legally restrict others from doing anything the license
+    permits.
+
+This summary is not a substitute for the license. The full legal code is
+available at https://creativecommons.org/licenses/by/4.0/legalcode.
+
+Suggested attribution: "Instance files from LineHead (Anonymous Authors, 2026),
+licensed under CC BY 4.0."
+
+================================================================================
+Part III. Third-party material (not distributed in this repository)
+================================================================================
+
+The scripts download or query the following material, which remains under its
+own terms. Users are responsible for complying with them.
+
+  Datasets
+  - ogbg-molhiv, Open Graph Benchmark: MIT License.
+  - ogbn-arxiv, Open Graph Benchmark: Open Data Commons Attribution License
+    (ODC-BY).
+
+  Model weights and services (accessed through Hugging Face or an API; no
+  weights are included here)
+  - Qwen2.5 instruct models at 0.5B, 1.5B, 7B, 14B and 32B, Qwen2.5 base models
+    at 0.5B, 1.5B and 7B, and MPT-7B: Apache License 2.0.
+  - Qwen2.5-3B-Instruct: Qwen Research License.
+  - Qwen2.5-72B-Instruct: Qwen License.
+  - Llama-3.1-8B-Instruct: Llama 3.1 Community License.
+  - Gemma-2-9B-it: Gemma Terms of Use.
+  - BLOOM-7B1: BigScience RAIL License.
+  - DeepSeek-R1-Distill-Qwen-7B: MIT License (its Qwen2.5 base: Apache License
+    2.0).
+  - GPT-4o: OpenAI terms of use.
+
+  Python packages listed in requirements.txt are installed separately and are
+  governed by their own licenses.

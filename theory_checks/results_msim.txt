@@ -1,0 +1,11 @@
+{'d': 16, 'beta': np.float64(19.68), 'P_event': np.float64(0.0), 'seq_with_error': 1.0, 'pos_errors': 3450}
+{'d': 32, 'beta': np.float64(19.68), 'P_event': np.float64(0.0), 'seq_with_error': 1.0, 'pos_errors': 1135}
+{'d': 64, 'beta': np.float64(19.68), 'P_event': np.float64(0.0), 'seq_with_error': 0.72, 'pos_errors': 81}
+{'d': 128, 'beta': np.float64(19.68), 'P_event': np.float64(0.0), 'seq_with_error': 0.0, 'pos_errors': 0}
+{'d': 256, 'beta': np.float64(19.68), 'P_event': np.float64(0.0), 'seq_with_error': 0.0, 'pos_errors': 0}
+{'d': 1024, 'beta': np.float64(19.68), 'P_event': np.float64(0.18), 'seq_with_error': 0.0, 'pos_errors': 0}
+{'d': 4096, 'beta': np.float64(19.68), 'P_event': np.float64(1.0), 'seq_with_error': 0.0, 'pos_errors': 0}
+E3 scale (n=800, 64 names): {'d': 32, 'beta': np.float64(21.53), 'P_event': np.float64(0.0), 'seq_with_error': 1.0, 'pos_errors': 711, 'pos_error_rate': 0.044493116395494366}
+E3 scale (n=800, 64 names): {'d': 64, 'beta': np.float64(21.53), 'P_event': np.float64(0.0), 'seq_with_error': 0.75, 'pos_errors': 63, 'pos_error_rate': 0.003942428035043805}
+E3 scale (n=800, 64 names): {'d': 128, 'beta': np.float64(21.53), 'P_event': np.float64(0.0), 'seq_with_error': 0.05, 'pos_errors': 2, 'pos_error_rate': 0.00012515644555694618}
+E3 scale (n=800, 64 names): {'d': 256, 'beta': np.float64(21.53), 'P_event': np.float64(0.0), 'seq_with_error': 0.0, 'pos_errors': 0, 'pos_error_rate': 0.0}

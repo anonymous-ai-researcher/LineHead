@@ -1,0 +1,22 @@
+{
+ "dia_AL_kset.jsonl": {
+  "positives": 12000,
+  "violations": 0
+ },
+ "dia_NC_kset.jsonl": {
+  "positives": 12000,
+  "violations": 0
+ },
+ "dia_AL_kid.jsonl": {
+  "positives": 8000,
+  "violations": 0
+ },
+ "dia_NC_kid.jsonl": {
+  "positives": 8000,
+  "violations": 0
+ },
+ "dia_AL_kown.jsonl": {
+  "positives": 2000,
+  "violations": 0
+ }
+}

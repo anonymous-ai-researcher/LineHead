@@ -1,0 +1,6 @@
+[1] hard pair: 1590 tokens; nested depth-2 formula: + True, - False
+[1] random formulas of match-nesting depth <= 1: 0 of 3000 separate the pair (theorem: 0)
+[2] control, random formulas of match-nesting depth <= 2: 0 of 3000 separate the pair
+[2] control, shaped depth-2 formulas M(chi and M(color)): 21 of 3000 separate the pair
+[3] Theta_3 (depth 1): 0 errors on 1534 (prompt, query) cases with <= 3 edges; on a positive with 4 edges (red edge last) it gives False (truth True)
+[3] Theta_6 (depth 1): 0 errors on 1537 (prompt, query) cases with <= 6 edges; on a positive with 7 edges (red edge last) it gives False (truth True)

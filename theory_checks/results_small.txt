@@ -1,0 +1,4 @@
+AL L = 6 smallest found: ({'n': 465, 'maxdeg': 10, 'equal': True, 'first_diff_round': None}, 10, 1)
+NC L = 6 smallest found: ({'n': 624, 'maxdeg': 12, 'equal': True, 'first_diff_round': None}, 12, 0)
+AL L = 12 smallest found: ({'n': 1592, 'maxdeg': 22, 'equal': True, 'first_diff_round': None}, 22, 2)
+NC L = 12 smallest found: ({'n': 2347, 'maxdeg': 24, 'equal': True, 'first_diff_round': None}, 24, 2)

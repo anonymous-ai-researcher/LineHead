@@ -1,0 +1,35 @@
+{
+ "ln_thm_eps_1_8": {
+  "600": {
+   "stated_12_over_eps2": 13192,
+   "three_term_half_delta": 2837,
+   "width_D": 690
+  },
+  "64": {
+   "stated_12_over_eps2": 9754,
+   "three_term_half_delta": 2234,
+   "width_D": 547
+  }
+ },
+ "mr_thm_eps_1_4": {
+  "150": {
+   "closed_12_over_eps2": 2633,
+   "closed_ln_over_a": 1021,
+   "lemma_mr_conc": 3510,
+   "three_term": 600
+  },
+  "600": {
+   "closed_12_over_eps2": 3165,
+   "closed_ln_over_a": 1228,
+   "lemma_mr_conc": 4220,
+   "three_term": 702
+  },
+  "64": {
+   "closed_12_over_eps2": 2306,
+   "closed_ln_over_a": 895,
+   "lemma_mr_conc": 3074,
+   "three_term": 538
+  }
+ },
+ "one_over_a_quarter": 74.5
+}

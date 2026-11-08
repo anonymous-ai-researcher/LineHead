@@ -1,0 +1,27 @@
+(i) fresh hub entries: minimal separating round depth vs. head route
+  AL k=1: head route 4, fresh pair first separated at round 4
+  AL k=2: head route 6, fresh pair first separated at round 5
+  AL k=3: head route 8, fresh pair first separated at round 6
+  AL k=4: head route 10, fresh pair first separated at round 6
+  AL k=5: head route 12, fresh pair first separated at round 7
+  AL k=6: head route 14, fresh pair first separated at round 7
+  AL k=7: head route 16, fresh pair first separated at round 8
+  AL k=8: head route 18, fresh pair first separated at round 8
+  AL k=9: head route 20, fresh pair first separated at round 8
+  AL k=10: head route 22, fresh pair first separated at round 9
+  NC k=1: head route 5, fresh pair first separated at round 5
+  NC k=2: head route 10, fresh pair first separated at round 7
+  NC k=3: head route 15, fresh pair first separated at round 8
+  NC k=4: head route 20, fresh pair first separated at round 9
+  NC k=5: head route 25, fresh pair first separated at round 10
+(ii) decoupled (operator depth d, offsets <= r), AL, kappa=1: smallest k with equal depth-d types
+  d=3 r=0: k_min hard = 1
+  d=3 r=2: k_min hard = 1
+  d=3 r=5: k_min hard = 2
+  d=3 r=10: k_min hard = 5
+  d=3 r=20: k_min hard = 10
+  d=6 r=0: k_min hard = 3
+  d=6 r=2: k_min hard = 3
+  d=6 r=5: k_min hard = 4
+  d=6 r=10: k_min hard = 6
+  d=6 r=20: k_min hard = 11

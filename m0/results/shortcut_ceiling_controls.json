@@ -1,0 +1,9 @@
+{
+ "instances_sha256": {
+  "e2_controls.jsonl": "461cb29c1bf8c537c5112b1e660e9e9c9fcc028c9c2dab653ea567216ab69e01"
+ },
+ "control": {
+  "bal_acc": 0.826875,
+  "n": 1600
+ }
+}

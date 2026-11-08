@@ -1,0 +1,35 @@
+[A] budget pairs (theorem: 0 separations by depth-1 formulas within budget)
+  r=0 kappa=1 d=1: c=4 P=12 E=6; edges m=14 <= bound 17: True; 222 tokens; depth-1 separations 0/400; depth-2 formula (+,-)=(True, False); shaped depth-2 control separations 4/400
+  r=1 kappa=1 d=1: c=4 P=16 E=8; edges m=18 <= bound 20: True; 286 tokens; depth-1 separations 0/400; depth-2 formula (+,-)=(True, False); shaped depth-2 control separations 7/400
+  r=1 kappa=2 d=1: c=5 P=18 E=10; edges m=22 <= bound 23: True; 338 tokens; depth-1 separations 0/400; depth-2 formula (+,-)=(True, False); shaped depth-2 control separations 2/400
+  r=2 kappa=1 d=2: c=7 P=28 E=14; edges m=30 <= bound 32: True; 478 tokens; depth-1 separations 0/400; depth-2 formula (+,-)=(True, False); shaped depth-2 control separations 7/400
+  r=2 kappa=2 d=2: c=9 P=34 E=18; edges m=38 <= bound 38: True; 594 tokens; depth-1 separations 0/400; depth-2 formula (+,-)=(True, False); shaped depth-2 control separations 4/400
+  r=3 kappa=3 d=2: c=11 P=42 E=22; edges m=46 <= bound 47: True; 722 tokens; depth-1 separations 0/400; depth-2 formula (+,-)=(True, False); shaped depth-2 control separations 4/400
+  r=1 kappa=1 d=3: c=10 P=34 E=18; edges m=38 <= bound 38: True; 594 tokens; depth-1 separations 0/400; depth-2 formula (+,-)=(True, False); shaped depth-2 control separations 3/400
+  r=3 kappa=2 d=3: c=13 P=48 E=24; edges m=50 <= bound 53: True; 798 tokens; depth-1 separations 0/400; depth-2 formula (+,-)=(True, False); shaped depth-2 control separations 2/400
+[B] Theta_{E0}: correct up to E0 edges, errs on the pair built for its own budget
+  E0=2: 0 errors on 765 cases with <= 2 edges; own-budget pair (m=26 edges): Theta gives + False, - False (truth True, False)
+  E0=4: 0 errors on 770 cases with <= 4 edges; own-budget pair (m=34 edges): Theta gives + False, - False (truth True, False)
+  E0=6: 0 errors on 754 cases with <= 6 edges; own-budget pair (m=38 edges): Theta gives + False, - False (truth True, False)
+[C] random graphs: balanced accuracy over (prompt, query) cases (true positive and true negative rates)
+  n in [8,16]: edges mean 12.7, max 23
+    EL Theta_2 (depth 1, kappa=4): TPR 64/279 = 0.229, TNR 321/321 = 1.000, balanced 0.615
+    EL Theta_4 (depth 1, kappa=6): TPR 119/279 = 0.427, TNR 321/321 = 1.000, balanced 0.713
+    EL Theta_8 (depth 1, kappa=10): TPR 209/279 = 0.749, TNR 321/321 = 1.000, balanced 0.875
+    EL Theta_16 (depth 1, kappa=18): TPR 271/279 = 0.971, TNR 321/321 = 1.000, balanced 0.986
+    EL Theta_32 (depth 1, kappa=34): TPR 279/279 = 1.000, TNR 321/321 = 1.000, balanced 1.000
+    EL depth-2 formula (constant budget): TPR 279/279 = 1.000, TNR 321/321 = 1.000, balanced 1.000
+    AL since formula (depth 1, constant budget): TPR 279/279 = 1.000, TNR 321/321 = 1.000, balanced 1.000
+    NC since formula (depth 1, constant budget): TPR 279/279 = 1.000, TNR 321/321 = 1.000, balanced 1.000
+  n in [17,32]: edges mean 26.2, max 44
+    EL Theta_2 (depth 1, kappa=4): TPR 33/293 = 0.113, TNR 307/307 = 1.000, balanced 0.556
+    EL Theta_4 (depth 1, kappa=6): TPR 70/293 = 0.239, TNR 307/307 = 1.000, balanced 0.619
+    EL Theta_8 (depth 1, kappa=10): TPR 127/293 = 0.433, TNR 307/307 = 1.000, balanced 0.717
+    EL Theta_16 (depth 1, kappa=18): TPR 208/293 = 0.710, TNR 307/307 = 1.000, balanced 0.855
+    EL Theta_32 (depth 1, kappa=34): TPR 288/293 = 0.983, TNR 307/307 = 1.000, balanced 0.991
+    EL depth-2 formula (constant budget): TPR 293/293 = 1.000, TNR 307/307 = 1.000, balanced 1.000
+    AL since formula (depth 1, constant budget): TPR 293/293 = 1.000, TNR 307/307 = 1.000, balanced 1.000
+    NC since formula (depth 1, constant budget): TPR 293/293 = 1.000, TNR 307/307 = 1.000, balanced 1.000
+[D] mixture D_J (J=12): empirical |E[f y]| against the bound (b-1)/(2J)
+  200 random depth-1 formulas: max(|E[f y]| - bound) = -0.1250 (theorem: <= 0)
+  depth-2 formula: E[f y] = 0.500 (maximum 0.5)
